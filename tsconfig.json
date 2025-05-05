@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "jsx": "react-jsx",
+    "lib": ["DOM", "ES2022"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "baseUrl": "./",
+    "rootDir": "src",
+    "outDir": "dist-ts",
+    "paths": {
+      "@models/*": ["src/private/models/*"],
+      "@controllers/*": ["src/private/controllers/*"],
+      "@views/*": ["src/private/views/*"],
+      "@pages/*": ["src/private/pages/*"],
+      "@components/*": ["src/private/components/*"],
+      "@layouts/*": ["src/private/layouts/*"],
+      "@firebase": ["src/private/firebase.ts"],
+      "@contexts/*": ["src/contexts/*"],
+      "@public/*": ["src/public/*"]
+    },
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    // "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

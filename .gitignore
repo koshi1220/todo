@@ -1,0 +1,130 @@
+# ========================
+# 🚀 ビルド & 実行環境
+# ========================
+
+# Node.js
+node_modules/
+*.tsbuildinfo
+
+# Vite
+dist/
+dist-ssr/
+dist-ts/
+.vite/
+.cache/
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+
+# dotenv
+.env
+.env.*.local
+
+# ========================
+# 🧪 テスト & ログ
+# ========================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Coverage
+coverage/
+
+# ========================
+# 💻 エディタ・OSファイル
+# ========================
+
+# VSCode / IntelliJ / Mac
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# 🔐 セキュリティ・秘匿系
+# ========================
+
+# Firebase Secrets
+todokoshi-firebase-adminsdk-*.json
+
+# その他 *.json シークレットが混ざるなら
+# *.json でも良い（ただし設定ファイル除外しすぎに注意）
+
+# ========================
+# 🚀 ビルド & 実行環境
+# ========================
+
+# Node.js
+node_modules/
+*.tsbuildinfo
+
+# Vite
+dist/
+dist-ssr/
+dist-ts/
+.vite/
+.cache/
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+
+# dotenv
+.env
+.env.*.local
+
+# ========================
+# 🧪 テスト & ログ
+# ========================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Coverage
+coverage/
+
+# ========================
+# 💻 エディタ・OSファイル
+# ========================
+
+# VSCode / IntelliJ / Mac
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# 🔐 セキュリティ・秘匿系
+# ========================
+
+# Firebase Secrets
+todokoshi-firebase-adminsdk-*.json
+
+# その他 *.json シークレットが混ざるなら
+# *.json でも良い（ただし設定ファイル除外しすぎに注意）
+
